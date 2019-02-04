@@ -135,7 +135,7 @@
 		AC9ECFD11FC0901700F28CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9ECFDD1FC0913500F28CC1 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 		AC9ED07B1FC093AB00F28CC1 /* InitailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitailView.swift; sourceTree = "<group>"; };
-		AC9ED07F1FC094AC00F28CC1 /* Grey_eye_G5wCD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Grey_eye_G5wCD.jpg; path = CholesterolClassifyer/Grey_eye_G5wCD.jpg; sourceTree = SOURCE_ROOT; };
+		AC9ED07F1FC094AC00F28CC1 /* Grey_eye_G5wCD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Grey_eye_G5wCD.jpg; path = CholesterolClassifyer/images/Grey_eye_G5wCD.jpg; sourceTree = SOURCE_ROOT; };
 		AC9ED0871FC09B7900F28CC1 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		AC9ED0891FC09CFA00F28CC1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC9ED0901FC0A9D300F28CC1 /* .swift-sdk.version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-sdk.version"; sourceTree = "<group>"; };
@@ -257,7 +257,6 @@
 				AC9ECFC31FC0901700F28CC1 /* CholesterolClassifyerTests */,
 				AC9ECFCE1FC0901700F28CC1 /* CholesterolClassifyerUITests */,
 				AC9ECFAA1FC0901600F28CC1 /* Products */,
-				AC9ECFDD1FC0913500F28CC1 /* background2.png */,
 				AC9ED08E1FC0A9D300F28CC1 /* Carthage */,
 				AC9ED12E1FC0AAF200F28CC1 /* Frameworks */,
 			);
@@ -276,20 +275,15 @@
 		AC9ECFAB1FC0901600F28CC1 /* CholesterolClassifyer */ = {
 			isa = PBXGroup;
 			children = (
+				AC9ED07B1FC093AB00F28CC1 /* InitailView.swift */,
+				AC9ED1311FC0B81300F28CC1 /* ResultsView.swift */,
+				AC9ECFB01FC0901600F28CC1 /* Main.storyboard */,
 				AC9ECFAC1FC0901600F28CC1 /* AppDelegate.swift */,
+				AC9ED12F1FC0B80600F28CC1 /* QuestionsView.swift */,
 				AC9ED0891FC09CFA00F28CC1 /* ViewController.swift */,
 				AC9ED0871FC09B7900F28CC1 /* CameraController.swift */,
-				AC9ED07B1FC093AB00F28CC1 /* InitailView.swift */,
-				AC9ED1331FC0E67300F28CC1 /* download-1.jpg */,
-				AC9ECFB01FC0901600F28CC1 /* Main.storyboard */,
-				AC9ED12F1FC0B80600F28CC1 /* QuestionsView.swift */,
-				AC9ED1311FC0B81300F28CC1 /* ResultsView.swift */,
 				AC9ECFB61FC0901600F28CC1 /* Assets.xcassets */,
-				ACD679151FC1C86000BADF2E /* 23755941_10215286118892173_329400706_n.png */,
-				ACD679111FC1C7EE00BADF2E /* 23721957_10215286089411436_1640776719_n.png */,
-				ACD6790F1FC1C7EB00BADF2E /* 23755968_10215286089451437_348599441_n.png */,
-				ACD679101FC1C7EE00BADF2E /* 23758226_10215286089491438_1601188553_n.png */,
-				AC9ED07F1FC094AC00F28CC1 /* Grey_eye_G5wCD.jpg */,
+				FBB994FF2208AEA10058C978 /* images */,
 				AC9ECFB81FC0901600F28CC1 /* LaunchScreen.storyboard */,
 				AC9ECFBB1FC0901600F28CC1 /* Info.plist */,
 				AC9ECFB31FC0901600F28CC1 /* CholesterolClassifyer.xcdatamodeld */,
@@ -420,6 +414,20 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB994FF2208AEA10058C978 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC9ED1331FC0E67300F28CC1 /* download-1.jpg */,
+				AC9ED07F1FC094AC00F28CC1 /* Grey_eye_G5wCD.jpg */,
+				ACD679151FC1C86000BADF2E /* 23755941_10215286118892173_329400706_n.png */,
+				ACD679111FC1C7EE00BADF2E /* 23721957_10215286089411436_1640776719_n.png */,
+				ACD6790F1FC1C7EB00BADF2E /* 23755968_10215286089451437_348599441_n.png */,
+				ACD679101FC1C7EE00BADF2E /* 23758226_10215286089491438_1601188553_n.png */,
+				AC9ECFDD1FC0913500F28CC1 /* background2.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -795,7 +803,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3JE8BVF7K2;
+				DEVELOPMENT_TEAM = S4W4S3W3Y3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -803,7 +811,7 @@
 				INFOPLIST_FILE = CholesterolClassifyer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Mario.inc.CholesterolClassifyer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafehshoaib.CholesterolClassifyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -815,7 +823,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3JE8BVF7K2;
+				DEVELOPMENT_TEAM = S4W4S3W3Y3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -823,7 +831,7 @@
 				INFOPLIST_FILE = CholesterolClassifyer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Mario.inc.CholesterolClassifyer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafehshoaib.CholesterolClassifyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

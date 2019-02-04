@@ -2,22 +2,25 @@
 //  ResultsView.swift
 //  CholesterolClassifyer
 //
-//  Created by Mario Reckl on 2017-11-18.
-//  Copyright © 2017 Mario Reckl. All rights reserved.
+//  Created by Nafeh Shoaib and Mario Reckl on 2017-11-18.
+//  Copyright © 2017 nafehshoaib. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
 class ResultsView: UIViewController {
+    
     var result: String!
+    
     @IBOutlet var resultsLabel: UILabel!
+    
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         print("results")
         resultsLabel.text = result
     }
+    
     /*func viewWillAppear(){
         print("results")
         resultsLabel.text = result

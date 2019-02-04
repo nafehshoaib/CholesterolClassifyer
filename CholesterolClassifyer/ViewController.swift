@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Cholestroll
 //
-//  Created by Nafeh Shoaib on 2017-11-17.
+//  Created by Nafeh Shoaib and Mario Reckl on 2017-11-17.
 //  Copyright © 2017 nafehshoaib. All rights reserved.
 //
 
